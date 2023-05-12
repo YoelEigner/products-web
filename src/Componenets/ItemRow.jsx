@@ -1,7 +1,14 @@
+/**
+Renders an item row with an editable input field for a specified title and item.
+@param {Object} props - The component props.
+@param {boolean} props.editable - Indicates whether the input field is editable.
+@param {string|number} props.item - The item to be displayed or edited.
+@param {string} props.title - The title of the item.
+@param {function} props.handleEdit - The function to handle editing the item.
+@returns {JSX.Element} - The JSX element representing the item row.
+*/
+
 import { Card, Form, InputGroup, Row } from "react-bootstrap"
-
-
-
 export const ItemRow = ({ editable, item, title, handleEdit }) => {
     return (
         <Row>

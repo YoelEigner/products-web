@@ -1,3 +1,11 @@
+/**
+The main component of the application.
+This component renders the navbar, add new product button, list of products, and login screen.
+If there is no token available, the component will render the login screen.
+Otherwise, it will show the list of products and an "Add New Product" button that opens a form.
+@returns {JSX.Element} The main component JSX.
+*/
+
 import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { NewProduct } from './NewProduct';

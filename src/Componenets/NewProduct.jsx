@@ -1,3 +1,10 @@
+/**
+Component for adding a new product to the list.
+@param {Object} props - Component props.
+@param {function} props.setShowNewProduct - Function to set whether the new product modal is displayed or not.
+@return {JSX.Element} - Rendered component.
+*/
+
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { useEffect, useState } from 'react';
