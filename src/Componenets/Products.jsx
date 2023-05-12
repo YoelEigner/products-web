@@ -1,3 +1,7 @@
+/**
+Products component displaying a list of products and allowing users to filter and edit them
+@return {JSX.Element} - The Products component
+*/
 import { useEffect, useState } from "react"
 import { useSelector } from "react-redux";
 import { ProdItem } from "./ProdItem";

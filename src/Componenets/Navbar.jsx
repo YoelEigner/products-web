@@ -1,3 +1,9 @@
+/**
+A component representing the Navbar of the application.
+It contains a search bar to filter products and a logout button.
+@returns {JSX.Element} The JSX code for the NavbarComp component.
+ */
+
 import { useState } from 'react';
 import { Form, FormControl, Nav } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';

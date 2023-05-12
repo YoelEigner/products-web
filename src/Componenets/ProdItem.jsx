@@ -1,3 +1,9 @@
+/**
+Product item component to display a single product information.
+@param {Object} product - Object containing the product information.
+@param {Function} editItem - Callback function to handle editing the item.
+@returns {JSX.Element}
+*/
 import { useState } from "react"
 import { Button, Card, Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";

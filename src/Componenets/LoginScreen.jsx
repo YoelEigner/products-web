@@ -1,3 +1,8 @@
+
+/**
+Renders the Login screen component
+@returns {JSX.Element} Login Screen Component
+*/
 import { useState } from "react"
 import { Alert, Button, Col, Form } from "react-bootstrap"
 import { Login } from "../Utils/Utils"
