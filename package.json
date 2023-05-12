@@ -1,5 +1,6 @@
 {
   "name": "products",
+  "homepage": "http://ec2-54-159-17-173.compute-1.amazonaws.com/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
