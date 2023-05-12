@@ -2,6 +2,8 @@
 
 This is a simple React application that you can clone from GitHub and run on your local machine.
 
+[Sample live site](http://ec2-54-159-17-173.compute-1.amazonaws.com/react/)
+
 ## Prerequisites
 
 Before you can run this app, you need to have the following installed on your machine:
